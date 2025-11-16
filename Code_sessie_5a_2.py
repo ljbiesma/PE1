@@ -525,7 +525,7 @@ if __name__ == "__main__":
         sample_rate=myDAQ.sample_rate, samps_per_chan=myDAQ.samps_per_chan
     )
 
-    mode = input("Run single frequency (s) or full sweep (a)? [s/a]: ").strip().lower()
+    mode = input("Run single frequency (s) or full sweep (a)? [s/a]: ")
     
     if mode == "s":
         # --- SINGLE-FREQUENCY MODE ---
@@ -585,3 +585,4 @@ if __name__ == "__main__":
 
 
         
+
